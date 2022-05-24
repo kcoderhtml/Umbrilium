@@ -8,12 +8,20 @@ public class SettingsManager : MonoBehaviour
 {
     public AudioMixer audioMixer;
 
+    public Slider volumeSlider;
+
+    public TMPro.TMP_Dropdown qualityDropdown;
+
     public TMPro.TMP_Dropdown resolutionDropdown;
+
+    public Toggle fullscreenToggle;
 
     Resolution[] resolutions;
 
     void Start()
-    {
+    {   
+        //Resolutions dropdown code
+
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
@@ -38,6 +46,16 @@ public class SettingsManager : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
+
+        //Set volume slider to current volume
+        audioMixer.GetFloat("volume", out float volumevalue);
+        volumeSlider.value = volumevalue;
+
+        //Set Quality Dropdown to current quality
+        qualityDropdown.value = QualitySettings.GetQualityLevel();
+
+        //Set fullscreen toggle to current fullscreen state
+        fullscreenToggle.isOn = Screen.fullScreen;
     }
 
     public void SetVolume(float volume)
