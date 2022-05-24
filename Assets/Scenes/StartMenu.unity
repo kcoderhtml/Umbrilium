@@ -4660,36 +4660,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1509733228}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1632244349}
+      objectReference: {fileID: 1509733222}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1509733222}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DelayedDisable
       objectReference: {fileID: 0}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ToggleObject
-      objectReference: {fileID: 0}
-    - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: DelayedDisableFunction, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ToggleState, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -4700,7 +4688,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 232403956792421637, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 232403956792421691, guid: 58884d35d3007d4e5b1253d77fbbbb8e, type: 3}
