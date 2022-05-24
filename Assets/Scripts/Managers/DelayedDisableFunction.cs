@@ -10,13 +10,6 @@ public class DelayedDisableFunction : MonoBehaviour
 
     public GameObject selfGameObject;
 
-    public Animator animator;
-
-    void OnEnable()
-    {
-        animator.ResetTrigger("Pressed");
-    }
-
     public void DelayedDisable()
     {
         StartCoroutine(ToggleStateCoroutine());
