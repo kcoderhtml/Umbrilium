@@ -3892,7 +3892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 812ca8fb90e789436aae56e46befafb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.2
+  delay: 0.15
   gameObjectToToggle: {fileID: 0}
   selfGameObject: {fileID: 8815214813493548867}
 --- !u!1 &8815214813593523307

@@ -13,7 +13,7 @@ public class QuitManager : MonoBehaviour
     IEnumerator QuitGameCoroutine()
     {
         levelLoader.transition.SetTrigger("Start");
-        yield return new WaitForSeconds(levelLoader.transitionTime);
+        yield return new WaitForSecondsRealtime(levelLoader.transitionTime);
 
         #if UNITY_EDITOR
 

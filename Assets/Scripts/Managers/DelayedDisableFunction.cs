@@ -17,7 +17,7 @@ public class DelayedDisableFunction : MonoBehaviour
 
     IEnumerator ToggleStateCoroutine()
     {
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSecondsRealtime(delay);
         selfGameObject.SetActive(!selfGameObject.activeSelf);
         gameObjectToToggle.SetActive(!gameObjectToToggle.activeSelf);
     }
